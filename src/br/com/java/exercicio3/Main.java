@@ -7,10 +7,14 @@ public class Main {
 
         // Quadrilátero
         System.out.println("Exercício quadrilátero");
-        Quadrilatero.area(3);
+        System.out.println(Quadrilatero.area(3));
         Quadrilatero.area(5d,5d);
         Quadrilatero.area(7,8,9);
         Quadrilatero.area(5f,5f);
+
+        //segundo exercicio, metodos retornando valores
+        System.out.println(Quadrilatero.area());
+
 
     }
 }

@@ -6,9 +6,15 @@ package br.com.java.exercicio3;
  */
 public class Quadrilatero {
 
-    public static void area(double lado) {
+    public static String area() {
+        return "Insira uma valor";
+
+    }
+
+    public static double area(double lado) {
 
         System.out.println("Área do quadrado:" + lado * lado);
+        return (lado*lado);
     }
 
     public static void area(double lado1, double lado2) {
