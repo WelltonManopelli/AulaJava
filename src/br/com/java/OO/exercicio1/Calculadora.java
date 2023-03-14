@@ -1,13 +1,12 @@
 package br.com.java.OO.exercicio1;
 
-;
 
 class Calculadora implements OperacaoMatematica {
+
 
 @Override
 public void soma(double num1, double num2) {
     System.out.println("Soma "+ num1+num2);
-    
     throw new UnsupportedOperationException("Unimplemented method 'soma'");
 }
 
